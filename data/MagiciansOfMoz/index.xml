@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "archivearticle3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:base="data/MagiciansOfMoz/" article-type="research-article">
+	<front>
+		<journal-meta>
+			<publisher>
+				<publisher-name></publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-categories>
+				<subj-group subj-group-type="display-channel">
+					<subject></subject>
+				</subj-group>
+				<subj-group subj-group-type="heading">
+					<subject/>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Magicians Of Moz</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Frisson</surname>
+						<given-names>Christian</given-names>
+                        <image xlink:href="data/MagiciansOfMoz/ChristianFrissonPortfolio.jpg"/>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+					<xref ref-type="aff" rid="aff2">2</xref>
+					<xref ref-type="fn" rid="con1"/>
+				</contrib>
+				<aff id="aff1">
+					<institution>Currently hired at the University of Mons in Belgium.</institution>
+					<!--
+					<addr-line><named-content content-type="city">Brussels</named-content></addr-line>
+                	<country>Belgium</country>
+					-->
+			     
+                </aff>
+				<aff id="aff2">
+					<institution>Living in Brussels, Belgium.</institution>
+                </aff>
+				<fn fn-type="con" id="con1">
+					<p>
+						<a href="http://christian.frisson.re">http://christian.frisson.re</a>
+					</p>
+				</fn>
+			</contrib-group>
+			<pub-date pub-type="epub">
+				<day>19</day>
+				<month>01</month>
+				<year>2016</year>
+			</pub-date>
+			<abstract>
+				<p>This is an open cover letter to apply for the position of <xref ref-type="bibr" rid="bibMozCareerUXR">User Experience Researcher</xref> at Mozilla. First, I explain my motivations on how I feel that Mozilla will fullfil my career. Second, I describe how my values can serve Mozilla. Third, I sketch some ideas for future work that we can make together.</p>
+				<p>
+					<bold>URL: </bold>
+					<ext-link ext-link-type="url" xlink:href="https://frisson.re/MagiciansOfMoz">https://frisson.re/MagiciansOfMoz</ext-link>
+				</p>
+			</abstract>
+		</article-meta>
+	</front>
+	<body>
+		<sec id="secIntro" sec-type="secIntro">
+			<title>Introduction</title>
+			<p>Calling this webpage <italic>Magicians of Moz</italic> is a bold move. I adore puns. I always name my <xref ref-type="fig" rid="figChristianFrissonPortfolio">projects</xref> with 1-to-3-word aliases to make them easier to remember and talk about, like <xref ref-type="bibr" rid="bibChristianFrissonPortfolioprojects">bookmarks</xref>. There are several main ideas contained in <italic>Magicians of Moz</italic>:</p>
+			<p>1) Arthur Clarke's <xref ref-type="bibr" rid="bibClarkeThreeLaws">third law</xref> (spotted through a <xref ref-type="bibr" rid="bibTEI2014SDC">recent reminder</xref>) says: <italic>Any sufficiently advanced technology is indistinguishable from magic.</italic> This directly applies to the field of Human Computer Interaction (HCI). This can be applied to other fields from art, science and technology. For instance, sound design in a movie becomes great once it is not noticeable anymore. Technology should serve users and achieve it through the best transparency.</p>
+			<p>2) A traditional <xref ref-type="bibr" rid="bibWizardOzUX">usability engineering technique</xref> has been named after the famous <xref ref-type="bibr" rid="bibWizardOzDisambiguation">novel and movie</xref> <italic>The Wizard of Oz</italic>. It allows to evaluate systems with users even when these systems are not yet functional. Human evaluators replicate the desired functionalities. A similar train of thoughts may lead us to the <xref ref-type="bibr" rid="bibMechanicalTurk">Mechanical Turk</xref>. Amazon's version may be employed for remote user testing, but does raise <xref ref-type="bibr" rid="bibAmazonMechanicalTurkLaborIssues">societal issues</xref>. The term <italic>Magician</italic> is also gender-neutral (as opposed to for instance <italic>Wizard</italic>). Systems and tools should be designed for users and the user-centered design process should be respectful of the people involved.</p>
+			<p>3) This is an open cover letter for applying as <xref ref-type="bibr" rid="bibMozCareerUXR">User Experience Researcher</xref> at Mozilla. There are already lots of magicians at Mozilla, I could discuss with <xref ref-type="bibr" rid="bibKyleMachulis">some</xref> of <xref ref-type="bibr" rid="bibPhilippSackl">them</xref>. My passion gets attracted by the <xref ref-type="bibr" rid="bibMozUX">Mozilla UX</xref> and <xref ref-type="bibr" rid="bibMozVR">MozVR</xref> teams who prototype and evaluate with users novel ways of browsing the Internet. The plural in <italic>Magicians</italic> means that I want to be part of them. This cover letter, online and open, follows up the new tradition established by <xref ref-type="bibr" rid="bibReadyForMozilla">one</xref> of the Mozillians.</p>
+			<p>Usually a cover letter may address three main parts: 1) what is being sent and why, 2) who the sender is, and 3) what the sender can make together with the recipient organization. Consider the first part done. I will slightly adapt the two remaining sections. First, I will explain my motivations on how I feel that Mozilla will fullfil my career. Second, I will describe how my values can serve Mozilla. Third, I will sketch some ideas for future work that we can make together.</p>
+		</sec>
+		<sec id="secWhyMoz" sec-type="secWhyMoz">
+			<title>Motivations</title>
+			<sec id="secWhyMozUser" sec-type="secWhyMozUser">
+				<title>Why Mozilla? A user's standpoint.</title>
+				<p>I use Mozilla products. Really. I have been relying on <xref ref-type="bibr" rid="bibMozFirefox">Firefox</xref> and <xref ref-type="bibr" rid="bibMozThunderbird">Thunderbird</xref> for a decade. I prefer not to be traced when browsing the Internet and I want to be free to switch anytime between the major desktop platforms. I would love to use <xref ref-type="bibr" rid="bibMozFirefoxOS">Firefox OS</xref> once it runs on a <xref ref-type="bibr" rid="bibFairphone">responsible</xref> phone. Sorry, I have not yet contributed to any of these three major products so far. However, I use projects powered by Mozilla technologies or Firefox extensions, and contribute to some: <xref ref-type="bibr" rid="bibPaperMachinesFork">Paper Machines</xref> for visual text analytics in bibliography manager <xref ref-type="bibr" rid="bibZotero">Zotero</xref>, GUI prototyping tool <xref ref-type="bibr" rid="bibPencil">Pencil</xref> for sketching diagrams and ideas. So I have already been attracted to Mozilla first as a <bold>user</bold>. What could be better than being hired to improve one's favorite tools? But wait, there is a catch. As Jennifer Morrow wrote on her last <xref ref-type="bibr" rid="bibJenniferMorrow">post</xref> before her departure from Mozilla UX: <italic>Scratch-your-own-itch hacker culture assumes the creators of technology are its users, which deemphasizes the need for usability and accessibility.</italic></p>
+			</sec>
+			<sec id="secWhyMozResearcher" sec-type="secWhyMozResearcher">
+				<title>Why Mozilla? A researcher's perspective.</title>
+				<p>Beyond being a <bold>user</bold>, the third word in the position title is <bold>researcher</bold>. From my experience in academia I have learned that scientific researchers question issues, try to create or improve solutions to solve these, and document their findings ideally on publications. Speaking of publications, let's assume we want to first trace all scientific publications authored by direct members of Mozilla (including the staff from <xref ref-type="bibr" rid="bibMozillaScienceLab">Mozilla Science Lab</xref> would make it harder). This cover letter may be more similar to a position paper than to a scientific article, thus a proper systematic literature overview can be considered off-topic. To get an estimate, we can search the ACM Digital Library first for publications whose authors are affiliated to Mozilla. The query can be defined as follows: <italic>persons.authors.affiliation:(+mozilla)</italic>. This leads us to <xref ref-type="bibr" rid="bibACMDLMoz">40 results</xref>.</p>
+				<p>Among these results, how many are related to user experience? Instead of enforcing keywords such as <italic>user experience</italic> or <italic>usability</italic> onto the search, I propose to first collect some clues elsewhere. On the <xref ref-type="bibr" rid="bibMozillaResearch">Mozilla Research blog</xref>, posts can currently belong to the following categories: <italic>Emscripten</italic>, <italic>Events</italic>, <italic>Rust</italic>, <italic>Servo</italic>, <italic>Shumway</italic>, <italic>Uncategorized</italic>. Most of these are web-based multimedia technologies. To narrow down results to publications concerning user experience, I thus propose to filter web technologies and programming languages employed at Mozilla from the title and abstract and <italic>multimedia</italic> from the publication source title. The query can then be refined as follows: <italic>persons.authors.affiliation:(+mozilla) AND recordAbstract:(-javascript -rust -c++ -java -html -http -python -language -Emscripten -Rust -Servo -Shumway) AND acmdlTitle:(-javascript -rust -c++ -java -html -http -python -language -Emscripten -Rust -Servo -Shumway) AND acmdlPublicationTitle:(-*multimedia)</italic>. This leads us to <xref ref-type="bibr" rid="bibACMDLMozUX">8 results</xref>: 2 tutorials (<xref ref-type="bibr" rid="bibMozOpenSym14">OpenSym14</xref>, <xref ref-type="bibr" rid="bibMozSIGCSE14">SIGCSE'14</xref>), 2 workshops (<xref ref-type="bibr" rid="bibMozRELENG13">RELENG'13</xref>, <xref ref-type="bibr" rid="bibMozRELENG15">RELENG'15</xref>, more related to quality assurance), 1 long paper (<xref ref-type="bibr" rid="bibMozCSCW13">CSCW'13</xref>), 1 keynote (<xref ref-type="bibr" rid="bibMozSPLASH13">SPLASH'13</xref>), 1 panel (<xref ref-type="bibr" rid="bibMozCHI09">CHI'09</xref>), 1 artistic demo (<xref ref-type="bibr" rid="bibMozSA12">SA'12</xref>).</p>
+				<p>One first finding from this literature overview from Mozilla authors related to user experience research is that both the variety of presentation types and the variety of affiliations among co-authors may incline to think that Mozilla researchers are open to discuss their practices and collaborate with academic and industrial partners. As a potential Mozilla UX researcher, I would enjoy collaborating with academic/industrial peers and publishing research results with the UX team.</p>
+			</sec>
+			<sec id="secWhyMozUX" sec-type="secWhyMozUX">
+				<title>Why Mozilla UX? A user researcher passion.</title>
+				<p>On a recent <xref ref-type="bibr" rid="bibMozFirefoxUXDesignValues">website</xref>, people from the Firefox UX team outline their design process and values that have been elaborated for years. One quite attractive figure illustrates their <xref ref-type="fig" rid="figMozFirefoxUXDesignProcess">Design Process</xref>. There are five phases: 1) Conduct research on human needs and behavior. 2) Create concepts by blending research findings, technological insights and Mozilla mission values. 3) Iterate on design by prototyping, testing and refining. 4) Build and ship. 5) Measure with people. Address issues from the core before prototypes are made. I have been following an iterative process very similar phases for my research on HCI through engineering and usability. I would like to remain actively involved on all these phases, shall I become a member of the Firefox UX team.</p>
+				<p>On the same <xref ref-type="bibr" rid="bibMozFirefoxUXDesignValues">website</xref>, people from the Firefox UX team also define their <xref ref-type="fig" rid="figMozFirefoxUXDesignValues">Design Values</xref>. One key advantage from the chosen visualization as a donut chart is that user experience researchers can use it as a framework to analyze a research process, and display, by sizing the areas of each value accordingly to their completeness, how the process fits the framework. I will continue by explaining how our values can relate.</p>
+			</sec>
+		</sec>
+		<sec id="secWhyMe" sec-type="secWhyMe">
+			<title>Values</title>
+			<p>My code of conduct and criteria for a good career as user experience researcher can be organized as follows:</p>
+			<sec id="sCodePassion" sec-type="codePassion">
+				<title>Work driven by passion and emotion</title>
+				<p><xref ref-type="bibr" rid="bibMozSA12">Art installation</xref><italic>Weburette</italic> from Akatsuka Daisuke (Mozilla Japan), cited here before, transduces the flow of processes issued when loading a web page into liquids, mapping information (networking, building the DOM, number of links, local storage, visited links, garbage collection) to different fluids. Visuals are available on his collaborator Tomoki Hiramoto's Behance <xref ref-type="bibr" rid="bibTomokiHiramotoWeburette">gallery</xref>. Past the information display, this installation directly fascinates and triggers emotion. It makes me recall amused reactions of people discovering <xref ref-type="fig" rid="figLavaAMP">LavaAMP</xref>, an <xref ref-type="bibr" rid="bibLavaAMP">installation</xref> that Eric Schayes and I created  that is quite similar since it browses music through liquids, it surrounds the beats in music tracks by streaming colorful blobs. This was one of my best experience of designing a system: the chills for creating it, and the satisfaction seen on people discovering it. But wait, were people really satisfied? This would require proper evaluation methods.</p>
+			</sec>
+			<sec id="sCodeUserEvaluations" sec-type="codeUserEvaluations">
+				<title>Evaluate ideas and prototypes with people</title>
+				<p>My Myers-Briggs Type of personality Indicator (MBTI) is Introvert iNtuitive Feeling Perceiving (INFP), which confirms that I can be very empathetic to people and a good listener. This trait of personality helped me run contextual inquiries, particularly as 1:1 interviews. Trained in an engineering environment, I am also accustomed to making surveys, mostly for feedback after user testing and evaluation, from my <xref ref-type="fig" rid="figPhDThumbs">PhD</xref> <xref ref-type="bibr" rid="bibChristianFrissonPhD">thesis</xref>. I always make sure to formulate questions in surveys so that answers can be analyzed quantitatively. Throughout the <xref ref-type="bibr" rid="bibAuracle">Auracle</xref> project I have also learned how to measure where and how people look with eye tracking. I find that Alex Wright's rendering of the <xref ref-type="fig" rid="figAlexWrightUXMethodsSpace">space for UX methods</xref> shown during his workshop <xref ref-type="bibr" rid="bibAlexWrightHumanizingData"><italic>Humanizing data</italic></xref> outlines well usability methods by positioning these on two axes: attitudinal-behavioral and qualitative-quantitative. During Alex Wright's workshop, I have also learned Kawakita Jiro analysis, a technique for groups with which people first silently jot down their ideas and observations to post-its and then these can be clustered and categorized to structure the analysis and make results emerge. What to do with the results next?</p>
+			</sec>
+			<sec id="sCodeOpen" sec-type="codeOpen">
+				<title>Open research results (documentation, datasets and code)</title>
+				<p>Reading Bruce Sterling's <xref ref-type="bibr" rid="bibBruceSterlingShapingThings">book</xref> <italic>Shaping Things</italic> felt really inspiring. Particularly how he illustrates his vision with his passionate story around a bottle of wine, <italic>gizmo</italic> wine. By the way, have you spotted the glass in the Mozilla UX <xref ref-type="fig" rid="figMozFirefoxUXDesignProcess">Design Process</xref>? Published in 2005, a decade ago, some ideas feel not so futuristic anymore: the <italic>spime</italic> and the <italic>Internet of Things</italic>. He <italic>entroduces</italic> his book by calling for makers and designers of <italic>decent</italic> technologies, that are <italic>fully documented, trackable, searchable</italic>.</p>
+				<p>I strongly believe that publishing research results is a requirement for ensuring that ideas get traced, understood, iterated. I try to publish most source code related to my research results as much as I'm allowed to, and mostly on <xref ref-type="bibr" rid="bibChristianFrissonGithub">github</xref>. Doug Cook's <xref ref-type="bibr" rid="bibDougCookViz">project</xref> for a course in visualization at Berkeley from Fall 2014 shows in one <xref ref-type="fig" rid="figDougCookGithubPrVsOrg">visualization</xref> that Mozilla has been the organization owning the greatest amount of projects on github from May to September 2013. Mozilla UX team members publish their findings on their <xref ref-type="bibr" rid="bibMozUX">blog</xref> and in publications as overviewed before (<xref ref-type="bibr" rid="bibMozCHI09">CHI'09</xref>,<xref ref-type="bibr" rid="bibMozCSCW13">CSCW'13</xref>).</p>
+			</sec>
+			<sec id="sCodeRemoteCreativity" sec-type="codeRemoteCreativity">
+				<title>Fuel personal creativity remotely, collaborate creatively in person</title>
+				<p>Creativity and flow require <xref ref-type="bibr" rid="bibBrainPickingsSolitude">solitude</xref> or <xref ref-type="bibr" rid="bibBrainPickingsAlone">aloneness</xref>. I believe that offices are really necessary for organizations producing technologies when teams develop or use specific hardware, or need to collaborate together. Great, Mozilla teams seem to mostly work on software and use off-the-shelf hardware. I also like that most positions can be acted remotely at Mozilla and that Mozilla offers a travel and conference budget including for meeting people for usability evaluations.</p>
+				<p>According to <xref ref-type="bibr" rid="bibBretVictorClimateChange">Bret Victor</xref>, technologists should invest their time and skills in addressing the issue of climate change. One partial solution seems to be reducing petroleum waste from transportation. The most polluting mode of transportation ranked in his article is personal passenger vehicles, way above flights. When the schedule calls for personal work, I find it better to fuel creativity by remote working alone than spoiling commuting time and energy. But real, physical, tangible human contact is necessary for collaborations, for better understanding people, and for evaluations with users.</p>
+			</sec>
+		</sec>
+		<sec id="secFuture" sec-type="secFuture">
+			<title>Future work</title>
+			<p>The user experience researcher offer states: <italic>This role will be about 80% evaluative research and 20% generative research</italic>, similarly to The <xref ref-type="bibr" rid="bibWikipediaParetoPrinciple">Pareto Principle</xref>. The following ideas for future work are ordered in an evaluative-to-generative dimension.</p>
+			<sec id="secFutureUI" sec-type="secFutureUI">
+				<title>Firefox workflow analysis</title>
+				<p>I talked earlier about <xref ref-type="bibr" rid="bibAlexWrightHumanizingData"><italic>Alex Wright</italic></xref>'s two-dimensional rendering of a <xref ref-type="fig" rid="figAlexWrightUXMethodsSpace">definition space for UX methods</xref>. Christian Rohrer from the Nielsen/Norman Group proposes a <xref ref-type="bibr" rid="bibChristianRohrerUXMethods">variant</xref> by adding a third dimension: the <xref ref-type="fig" rid="figChristianRohrerUXMethodsSpace">context of product use</xref>. This underlines one significant issue: into what extent do people that test products iterations actually use these products? How can we analyze the workflow of people beyond one product that we want to test?</p>
+				<p>Are there Mozilla UX projects addressing this issue? I could stumble upon <xref ref-type="bibr" rid="bibMozTestPilot">Test Pilot</xref> which was an extension for Firefox allowing people to take part in studies and submit their data. Lots of test cases and findings were released until 2013 and 2014. The departure of its main developer seems to have stalled the project. Digging deeper brings us to the upcoming <xref ref-type="bibr" rid="bibMozWikiIdeaTown">Idea Town</xref>, with a mockup <xref ref-type="bibr" rid="bibMozIdeaTownSplash">splash</xref> nicely designed by <xref ref-type="bibr" rid="bibJohnGruenGithub">John Gruen</xref> from Mozilla UX. I am eager to get to know more!</p>
+				<p>During the past semester I have been developing <xref ref-type="fig" rid="figInspectorWidgetWorkflow">InspectorWidget</xref>, an opensource system to analyze users behaviors in their applications. InspectorWidget works on closed applications that do not provide source code nor scripting capabilities, but as well on opensource applications such as tools made by Mozilla. InspectorWidget covers the whole pipeline of software analysis from logging input events to visual statistics through browsing and programmable annotation. InspectorWidget allows post-recording logging, that is defining metrics of observation after recording and logging. InspectorWidget does not require programming skills. To achieve this, InspectorWidget combines low-level event logging (e.g. mouse and keyboard events) and high-level screen features (e.g. interface widgets) captured though computer vision techniques. I have started collaborations on it with researchers interested in how people deal with <xref ref-type="bibr" rid="bibGillesBailly">menus</xref> and <xref ref-type="bibr" rid="bibSylvainMalacria">shortcuts</xref>, among other GUI widgets and interaction techniques. We believe that InspectorWidget can benefit end users, usability experts and HCI researchers. The current <xref ref-type="fig" rid="figInspectorWidgetPrototype">prototype</xref> is almost on <xref ref-type="bibr" rid="bibInspectorWidgetGithub">github</xref>.</p>
+			</sec>
+			<sec id="secFutureBookmarks" sec-type="secFutureBookmarks">
+				<title>Browsing bookmarks and histories</title>
+				<p>Last year I stumbled by chance upon the Mozilla Chronicle project. When I saw the figures on its <xref ref-type="bibr" rid="bibMozChronicleTumblr">tumblr</xref>, I was immediately attracted by the second <xref ref-type="fig" rid="figMozChronicleModel"><italic>Context and View Frequency of History Items</italic></xref>. How many times have I lost track of bookmarks even if I kept a folder system with careful choices on breadth and depth! This left me wondering whether Chronicle would be a project centered on information visualization of browsing histories. During my <xref ref-type="fig" rid="figPhDThumbs">PhD</xref> <xref ref-type="bibr" rid="bibChristianFrissonPhD">thesis</xref> I have produced a thorough state-of-the-art on the design space of media/file browsers illustrated with numerous examples. I also have undertaken user experiments regarding information visualization of media content, particularly how people appreciated browsing layouts of image-based representations relatively to their performance in browsing, leading to the design of the <xref ref-type="fig" rid="figAudioMetro">AudioMetro</xref> <xref ref-type="bibr" rid="bibAudioMetro">visualization</xref>. This use case sounds very similar to browsing a collection of bookmarks with thumbnails. I would be glad to help propose high-fidelity prototypes for exploring browsing history and evaluate these with people, part of the Chronicle project if it is to be resumed.</p>
+			</sec>
+			<sec id="secFutureHaptics" sec-type="secFutureHaptics">
+				<title>MozVR and haptics</title>
+				<p>The current research tracks of the <xref ref-type="bibr" rid="bibMozVR">MozVR</xref> team focus on the browsing experience using off-the-shelf virtual reality devices, currently the Oculus <xref ref-type="bibr" rid="bibOculusRift">Rift</xref> for display. How can people interact in virtual reality? A companion off-the-shelf device, the Oculus <xref ref-type="bibr" rid="bibOculusTouch">Touch</xref>, is a split gamepad that two-handed users hold with their hands, one pad in each. While its description states that user movement sensing is precise, how do users receive feedback from their actions and behavior? From vibrators controlled with <xref ref-type="bibr" rid="bibOculusHapticFeedback">steady</xref> amplitude and frequency? Why the name <italic>Touch</italic>? A (research) friend expert in <xref ref-type="bibr" rid="bibBrunoDumas">multimodal</xref> interfaces and I designed and prototyped the <xref ref-type="fig" rid="figInfoPhys">InfoPhys</xref> <xref ref-type="bibr" rid="bibInfoPhys">system</xref> towards reinstating a richer and fuller sense of touch to information visualization: tactile, proprioceptive and kinesthetic <italic>display</italic>. It builds upon an extension for Firefox for information visualization for textual analysis, <xref ref-type="bibr" rid="bibPaperMachinesFork">Paper Machines</xref>, and a shift on web standards, from SVG to X3D. Instead of a person hidden in the box as in the <xref ref-type="bibr" rid="bibMechanicalTurk">Mechanical Turk</xref>, we placed a repurposed off-the-shelf haptic device inside, the Novint Falcon. But this device is too bulky, power consuming and rare (extinct) to reach a wide audience of users. This spring, HCI/UX researchers expert on <xref ref-type="bibr" rid="bibThomasPietrzak">phantom</xref>/<xref ref-type="bibr" rid="bibAliIsrar">haptic</xref> illusions <xref ref-type="bibr" rid="bibSiyanZhao">perception</xref> and I are organizing the <xref ref-type="fig" rid="figWebAudioHaptics">WebAudioHaptics</xref> <xref ref-type="bibr" rid="bibWebAudioHapticsGithub">tutorial</xref> at the Web Audio Conference (<xref ref-type="bibr" rid="bibWebAudioConference">WAC</xref>) 2016, proposing two research tracks for solving these issues: prototyping the user interface relies on 1) a pair of low-cost vibrating devices of a smaller form factor, wearable, replicable with off-the-shelf components (hardware); and 2) on Web Audio technologies (software), making it directly designable and accessible from the browser. I believe this might be of interest for the <xref ref-type="bibr" rid="bibMozVR">MozVR</xref> team, whose members partly come from the <xref ref-type="bibr" rid="bibMozUX">Mozilla UX</xref> team.</p>
+			</sec>
+		</sec>
+		<sec id="secClosing" sec-type="secClosing">
+			<title>Closing</title>
+            <p>Looking forward to working at Mozilla!</p>
+		</sec>  
+		<sec id="secAcknowledgements" sec-type="secAcknowledgements">
+			<title>Acknowledgments</title>
+			<p>For typesetting its contents, this responsive webpage relies on <xref ref-type="bibr" rid="bibeLifeLensGithub">eLife Lens</xref> release 1.0.0. Lens was developed in collaboration between UC Berkeley graduate student <xref ref-type="bibr" rid="bibIvanGrubisicLinkedIn">Ivan Grubisic</xref>, <xref ref-type="bibr" rid="bibeLifeSciencePublications">eLife Science Publications Ltd.</xref>, and Michael Aufreiter plus Oliver Buchtala from <xref ref-type="bibr" rid="bibSubstance">Substance</xref>, among others. Browsing text in sync with images and references (as in scientific publications) may be a terrible experience, inefficient and not satisfactory. They created an interesting concept.</p>
+		</sec>
+	</body>
+	<back>
+		<fig id="figChristianFrissonPortfolio">
+			<label>Figure: Porfolio by Christian Frisson</label>
+			<caption>
+				<title>Porfolio by Christian Frisson</title>
+				<p>Screenshot from <xref ref-type="bibr" rid="bibChristianFrissonPortfolio">website</xref>.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/ChristianFrissonPortfolio.jpg"/>
+		</fig>
+		<fig id="figAlexWrightUXMethodsSpace">
+			<label>Figure: UX methods definition space by Alex Wright</label>
+			<caption>
+				<title>UX methods definition space with two dimensions: attitudinal-behavioral and qualitative-quantitative</title>
+				<p>Reproduced from Alex Wright's slides of his workshop <xref ref-type="bibr" rid="bibAlexWrightHumanizingData">Humanizing data</xref>.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/alexwrightmonsworkshop051214-141210070828-conversion-gate02-p42.jpg"/>
+		</fig>
+		<fig id="figChristianRohrerUXMethodsSpace">
+			<label>Figure: UX methods definition space by Christian Rohrer</label>
+			<caption>
+				<title>UX methods definition space with three dimensions: attitudinal-behavioral, qualitative-quantitative, and context of product use</title>
+				<p>Reproduced from Christian Rohrer's <xref ref-type="bibr" rid="bibChristianRohrerUXMethods">post</xref> on the Nielsen/Norman group website.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/user-research-methods.png"/>
+		</fig>
+		<fig id="figDougCookGithubPrVsOrg">
+			<label>Figure: github projects per organization by Doug Cook</label>
+			<caption>
+				<title>Github: number of projects per organization (May-September 2013)</title>
+				<p>Mozilla is the organization owning the greatest amount of projects on github. Reproduced from Doug Cook's <xref ref-type="bibr" rid="bibDougCookViz">project</xref> for a course in visualization at Berkeley from Fall 2014.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/Vis-a2-dougcook-img2.png"/>
+		</fig>
+		<fig id="figMozFirefoxUXDesignProcess">
+			<label>Figure: Design Process by the Firefox UX team</label>
+			<caption>
+				<title>Firefox UX: Design Process</title>
+				<p>Reproduced from the <xref ref-type="bibr" rid="bibMozFirefoxUXDesignValues">Firefox Design Values</xref> website.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/b4cf5053.design-process.svg"/>
+		</fig>
+		<fig id="figMozFirefoxUXDesignValues">
+			<label>Figure: Design Values by the Firefox UX team</label>
+			<caption>
+				<title>Firefox UX: Design Values</title>
+				<p>Reproduced from the <xref ref-type="bibr" rid="bibMozFirefoxUXDesignValues">Firefox Design Values</xref> website.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/9a1015e6.ring.min.svg"/>
+		</fig>
+		<fig id="figLavaAMP">
+			<label>Figure: LavaAMP by Christian Frisson and Eric Schayes</label>
+			<caption>
+				<title>LavaAMP</title>
+				<p>LavaAMP surrounds the beats in music tracks by streaming colorful blobs. LavaAMP is inspired from vacuum tube amps and lava lamps. Built with the Microsoft PumpSpark Fountain Development Kit, it has been presented at the ACM UIST 2013 Student Innovation Contest. Designed by Christian Frisson and Eric Schayes. Snapshot from <xref ref-type="bibr" rid="bibLavaAMP">vimeo</xref>.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/LavaAMP.jpg"/>
+		</fig>
+		<fig id="figInspectorWidgetWorkflow">
+			<label>Figure: InspectorWidget (workflow) by Christian Frisson</label>
+			<caption>
+				<title>Workflow of InspectorWidget</title>
+				<p>InspectorWidget is an opensource system to analyze users behaviors in their applications. Its workflow: the experimenter records users' activity, then browses the recordings and programs annotations. InspectorWidget then automates annotations that the experimenter can analyze using the provided visualization tool, Data can be exported for processing in a different statistical analysis tool. Soon on <xref ref-type="bibr" rid="bibInspectorWidgetGithub">github</xref>.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/InspectorWidgetWorkflow.png"/>
+		</fig>
+		<fig id="figInspectorWidgetPrototype">
+			<label>Figure: InspectorWidget (prototype) by Christian Frisson</label>
+			<caption>
+				<title>Current prototype of InspectorWidget</title>
+				<p>InspectorWidget is an opensource system to analyze users behaviors in their applications. In the top right frame we see the playback of a screen recording of an application. In the top left frame we can visual program metrics to extract for behavioral analysis. On the bottom frame we can browse a timeline of events related to extracted metrics. Soon on <xref ref-type="bibr" rid="bibInspectorWidgetGithub">github</xref>.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/InspectorWidgetPrototype.jpg"/>
+		</fig>
+		<fig id="figMozChronicleModel">
+			<label>Figure: Mozilla Chronicle Model by the Firefox UX team</label>
+			<caption>
+				<title>Mozilla Chronicle Model: Context and View Frequency of History Items</title>
+				<p>Reproduced from the Mozilla Chronicle <xref ref-type="bibr" rid="bibMozChronicleTumblr">tumblr</xref>.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/chronicle-model-02.png"/>
+		</fig>
+		<fig id="figPhDThumbs">
+			<label>PhD thesis pages thumbnails by Christian Frisson</label>
+			<caption>
+				<title>PhD thesis pages thumbnails</title>
+				<p>Page thumbnails of Christian Frisson's PhD Thesis. Screenshot obtained with <ext-link ext-link-type="url" xlink:href="https://github.com/arauchfuss/Simple-Comic" xlink:target="_blank">Simple Comics</ext-link>' <italic>Thumbnail Exposé</italic>. <xref ref-type="bibr" rid="bibChristianFrissonPhD">Thesis</xref> available online.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/ChristianFrissonPhDThumbs.png"/>
+		</fig>
+		<fig id="figAudioMetro">
+			<label>Figure: AudioMetro by Christian Frisson et al.</label>
+			<caption>
+				<title>AudioMetro: evaluation content presentation layouts</title>
+				<p>AudioMetro is an interactive visualization of sound collections. Sounds are represented by content-based glyphs, mapping perceptual sharpness (audio) to brightness and contour (visual). These glyphs are positioned in a starfield display using Student t-distributed Stochastic Neighbor Embedding (tSNE) for dimension reduction, then a proximity grid optimized for preserving direct neighbors. Known-item search evaluation shows that our technique significantly outperforms a grid of sounds represented by dots and ordered by filename. <xref ref-type="bibr" rid="bibAudioMetro">Findings</xref> published.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/AudioMetro.png"/>
+		</fig>
+		<fig id="figInfoPhys">
+			<label>Figure: InfoPhys by Christian Frisson and Bruno Dumas</label>
+			<caption>
+				<title/>
+				<p>Information visualization is the transformation of abstract data into visual, interactive representations. InfoPhys is a device that enables the direct, tangible manipulation of visualizations. InfoPhys makes use of a force-feedback pointing device to simulate haptic feedback while the user explores visualizations projected on top of the device. We present a use case illustrating the trends in ten years of TEI proceedings and how InfoPhys allows users to feel and manipulate these trends. 
+Soon on <xref ref-type="bibr" rid="bibInspectorWidgetGithub">github</xref>.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/InfoPhys.jpg"/>
+		</fig>
+		<fig id="figWebAudioHaptics">
+			<label>Figure: WebAudioHaptics tutorial thumbnail</label>
+			<caption>
+				<title>WebAudioHaptics tutorial at Web Audio Conference (WAC) 2016 by Christian Frisson, Thomas Pietrzak, Siyan Zhao and Ali Israr</title>
+				<p>The Web Audio Haptics WAC Tutorial 2016 will explore how to create meaningful haptic content that engages different areas of the body using off-the-shelf hardware and open source software running on a web browser using Web Audio technologies. The tutorial aims to teach participant an easy-to-use method to create dynamic haptic content as well as to give participants an understanding of apparent tactile illusions, a perception of illusory motion between two areas on the body, and apply this knowledge towards generating personalized haptic experiences. Tutorial soon on <xref ref-type="bibr" rid="bibWebAudioHapticsGithub">github</xref>. Picture courtesy of Disney Research.</p>
+			</caption>
+			<graphic xlink:href="data/MagiciansOfMoz/WebAudioHaptics.jpg"/>
+		</fig>
+	</back>
+	<ref-list>
+		<title>References</title>
+		<ref id="bibChristianFrissonPortfolio">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+				</person-group>
+				<article-title>Christian Frisson's Portfolio</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://christian.frisson.re</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibClarkeThreeLaws">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Arthur Clarke's Three Laws on Wikipedia</article-title>
+				<source>Wikipedia page</source>
+				<pub-id pub-id-type="url">https://en.wikipedia.org/wiki/Clarke's_three_laws</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibTEI2014SDC">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Larissa</given-names>
+						<surname>Pschetz</surname>
+					</name>
+					<name>
+						<given-names>Daniel</given-names>
+						<surname>Wessolek</surname>
+					</name>
+				</person-group>
+				<article-title>ACM TEI 2014 Student Design Challenge</article-title>
+				<source>Conference website</source>
+				<pub-id pub-id-type="url">http://www.tei-conf.org/14/design_call.php</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibWizardOzDisambiguation">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>The Wizard of Oz (disambiguation) on Wikipedia</article-title>
+				<source>Wikipedia page</source>
+				<pub-id pub-id-type="url">https://en.wikipedia.org/wiki/The_Wizard_of_Oz</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibWizardOzUX">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Wizard of Oz (experiment) on Wikipedia</article-title>
+				<source>Wikipedia page</source>
+				<pub-id pub-id-type="url">https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMechanicalTurk">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mechanical Turk on Wikipedia</article-title>
+				<source>Wikipedia page</source>
+				<pub-id pub-id-type="url">https://en.wikipedia.org/wiki/Mechanical_Turk</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibAmazonMechanicalTurkLaborIssues">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Amazon Mechanical Turk (Labor issues) on Wikipedia</article-title>
+				<source>Wikipedia page</source>
+				<pub-id pub-id-type="url">https://en.wikipedia.org/wiki/Amazon_Mechanical_Turk#Labor_issues</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozCareerUXR">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Careers: User Experience Researcher</article-title>
+				<source>Mozilla Careers Listing website</source>
+				<pub-id pub-id-type="url">https://careers.mozilla.org/en-US/position/oNI61fwm</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibPhilippSackl">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Philipp</given-names>
+						<surname>Sackl</surname>
+					</name>
+				</person-group>
+				<article-title>Philipp Sackl's personal website</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">https://philippsackl.com</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibKyleMachulis">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Kyle</given-names>
+						<surname>Machulis</surname>
+					</name>
+				</person-group>
+				<article-title>Kyle Machulis' personal website</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://www.nonpolynomial.com</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozUX">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla UX team</article-title>
+				<source>Team website</source>
+				<pub-id pub-id-type="url">https://blog.mozilla.org/ux</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozVR">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>MozVR team</article-title>
+				<source>Team website</source>
+				<pub-id pub-id-type="url">http://mozvr.com</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibReadyForMozilla">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Philipp</given-names>
+						<surname>Sackl</surname>
+					</name>
+				</person-group>
+				<article-title>Philipp is Ready for Mozilla</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://readyformozilla.com</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozFirefox">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Firefox</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://www.mozilla.org/firefox/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozThunderbird">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Thunderbird</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://www.mozilla.org/thunderbird/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozFirefoxOS">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Firefox OS</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://www.mozilla.org/firefox/os/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibFairphone">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Fairphone</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://www.fairphone.com</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibPaperMachinesFork">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Cora</given-names>
+						<surname>Johnson-Robertson</surname>
+					</name>
+					<name>
+						<given-names>Jo</given-names>
+						<surname>Guldi</surname>
+					</name>
+				</person-group>
+				<article-title>Christian Frisson's Paper Machines fork on github</article-title>
+				<source>Github project fork of Paper Machines</source>
+				<pub-id pub-id-type="url">https://github.com/ChristianFrisson/papermachines</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibZotero">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Zotero bibliography manager</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://www.zotero.org</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibPencil">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<surname>Evolus</surname>
+					</name>
+				</person-group>
+				<article-title>Pencil</article-title>
+				<pub-id pub-id-type="url">https://github.com/prikhi/pencil</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibJenniferMorrow">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Jennifer</given-names>
+						<surname>Morrow</surname>
+					</name>
+				</person-group>
+				<article-title>Looking Ahead: Challenges for the Open Web</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://www.donotlick.com/2014/07/28/looking-ahead-challenges-for-the-open-web-3/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozillaScienceLab">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Science Lab Staff</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://www.mozillascience.org/about</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozillaResearch">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Research blog</article-title>
+				<source>Team website</source>
+				<pub-id pub-id-type="url">https://blog.mozilla.org/research/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibACMDLMoz">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<source>Association for Machinery and Computing (ACM) Digital Library (DL) search engine</source>
+				<article-title>ACM DL tentative search for Mozilla publications</article-title>
+				<pub-id pub-id-type="url">http://dl.acm.org/results.cfm?query=persons.authors.affiliation%3A%28%252Bmozilla%29</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibACMDLMozUX">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<source>Association for Machinery and Computing (ACM) Digital Library (DL) search engine</source>
+				<article-title>ACM DL tentative search for Mozilla UX publications</article-title>
+				<pub-id pub-id-type="url">http://dl.acm.org/results.cfm?query=persons.authors.affiliation%3A%28%252Bmozilla%29+AND+recordAbstract%3A%28-javascript+-rust+-c%252B%252B+-java+-html+-http+-python+-language+-Emscripten+-Rust+-Servo+-Shumway%29+AND+acmdlTitle%3A%28-javascript+-rust+-c%252B%252B+-java+-html+-http+-python+-language+-Emscripten+-Rust+-Servo+-Shumway%29+AND+acmdlPublicationTitle%3A%28-*multimedia%29</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozOpenSym14">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Laura</given-names>
+						<surname>Hilliger</surname>
+					</name>
+					<name>
+						<given-names>Michelle</given-names>
+						<surname>Thorne</surname>
+					</name>
+				</person-group>
+				<article-title>How You Run a Meeting Says a Lot About Your Values: Participatory Practices for Open Communities</article-title>
+				<source>Proceedings of The International Symposium on Open Collaboration (OpenSym '14). ACM, New York, NY, USA, Pages 42, 1 page</source>
+				<pub-id pub-id-type="doi">10.1145/2641580.2641582</pub-id>
+				<pub-id pub-id-type="url">https://laura.makes.org/thimble/ODQxMTU0ODE2/participatory-practices-talk</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozSPLASH13">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Gregory V.</given-names>
+						<surname>Wilson</surname>
+					</name>
+				</person-group>
+				<article-title>Two solitudes</article-title>
+				<source>Proceedings of the 2013 companion publication for conference on Systems, programming, applications: software for humanity (SPLASH'13). ACM, New York, NY, USA, 3-4</source>
+				<pub-id pub-id-type="doi">10.1145/2508075.2508189</pub-id>
+				<pub-id pub-id-type="url">http://slideshare.net/gvwilson/two-solitudes/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozCHI09">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Scooter</given-names>
+						<surname>Morris</surname>
+					</name>
+					<name>
+						<given-names>Mike</given-names>
+						<surname>Beltzner</surname>
+					</name>
+					<name>
+						<given-names>Alex</given-names>
+						<surname>Faaborg</surname>
+					</name>
+					<name>
+						<given-names>Alonso</given-names>
+						<surname>Vera</surname>
+					</name>
+					<name>
+						<given-names>Jeff</given-names>
+						<surname>Noyes</surname>
+					</name>
+					<name>
+						<given-names>Becca</given-names>
+						<surname>Scollan</surname>
+					</name>
+					<name>
+						<given-names>Bonnie</given-names>
+						<surname>John</surname>
+					</name>
+				</person-group>
+				<article-title>Engineering Community: User Experience in Open Source</article-title>
+				<source>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI'09). ACM, New York, NY, USA</source>
+				<pub-id pub-id-type="doi">10.1145/1518701.2167146</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozRELENG13">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Bram</given-names>
+						<surname>Adams</surname>
+					</name>
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Bird</surname>
+					</name>
+					<name>
+						<given-names>Foutse</given-names>
+						<surname>Khomh</surname>
+					</name>
+					<name>
+						<given-names>Kim</given-names>
+						<surname>Moir</surname>
+					</name>
+				</person-group>
+				<article-title>1st international workshop on release engineering (RELENG 2013).</article-title>
+				<source>Proceedings of the 2013 International Conference on Software Engineering (ICSE'13). IEEE Press, Piscataway, NJ, USA, 1545-1546</source>
+				<pub-id pub-id-type="doi">10.1109/ICSE.2013.6606779</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozSIGCSE14">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Greg</given-names>
+						<surname>Wilson</surname>
+					</name>
+					<name>
+						<given-names>Fernando</given-names>
+						<surname>Perez</surname>
+					</name>
+					<name>
+						<given-names>Peter</given-names>
+						<surname>Norvig</surname>
+					</name>
+				</person-group>
+				<article-title>Teaching computing with the IPython notebook (abstract only)</article-title>
+				<source>Proceedings of the 45th ACM technical symposium on Computer science education (SIGCSE'14). ACM, New York, NY, USA, 740-740</source>
+				<pub-id pub-id-type="doi">10.1145/2538862.2539011</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozRELENG15">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Bram</given-names>
+						<surname>Adams</surname>
+					</name>
+					<name>
+						<given-names>Stephany</given-names>
+						<surname>Bellomo</surname>
+					</name>
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Bird</surname>
+					</name>
+					<name>
+						<given-names>Foutse</given-names>
+						<surname>Khomh</surname>
+					</name>
+					<name>
+						<given-names>Kim</given-names>
+						<surname>Moir</surname>
+					</name>
+				</person-group>
+				<article-title>3rd international workshop on release engineering (RELENG 2015)</article-title>
+				<source>Proceedings of the 37th International Conference on Software Engineering - Volume 2 (ICSE '15), Vol. 2. IEEE Press, Piscataway, NJ, USA,  995-996</source>
+				<pub-id pub-id-type="doi">10.1109/ICSE.2015.321</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozCSCW13">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Rafael</given-names>
+						<surname>Ballagas</surname>
+					</name>
+					<name>
+						<given-names>Thérèse E.</given-names>
+						<surname>Dugan</surname>
+					</name>
+					<name>
+						<given-names>Glenda</given-names>
+						<surname>Revelle</surname>
+					</name>
+					<name>
+						<given-names>Koichi</given-names>
+						<surname>Mori</surname>
+					</name>
+					<name>
+						<given-names>Maria</given-names>
+						<surname>Sandberg</surname>
+					</name>
+					<name>
+						<given-names>Janet</given-names>
+						<surname>Go</surname>
+					</name>
+					<name>
+						<given-names>Emily</given-names>
+						<surname>Reardon</surname>
+					</name>
+					<name>
+						<given-names>Mirjana</given-names>
+						<surname>Spasojevic</surname>
+					</name>
+				</person-group>
+				<article-title>Electric agents: fostering sibling joint media engagement through interactive television and augmented reality.</article-title>
+				<source>Proceedings of the 2013 conference on Computer supported cooperative work (CSCW '13). ACM, New York, NY, USA, 225-236</source>
+				<pub-id pub-id-type="doi">10.1145/2441776.2441803</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozFirefoxUXDesignValues">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Mozilla</given-names>
+						<surname>Firefox UX team</surname>
+					</name>
+				</person-group>
+				<article-title>Mozilla Firefox UX: Design Values</article-title>
+				<source>Team website</source>
+				<pub-id pub-id-type="url">http://firefoxux.github.io/DesignValues/</pub-id>
+				<year>2016</year>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozSA12">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Akatsuka</given-names>
+						<surname>Daisuke</surname>
+					</name>
+				</person-group>
+				<article-title>Weburette</article-title>
+				<source>SIGGRAPH Asia 2012 Art Gallery (SA '12). ACM, New York, NY, USA, Article 18, 1 page</source>
+				<pub-id pub-id-type="doi">10.1145/2413076.2413094</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibTomokiHiramotoWeburette">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Tomoki</given-names>
+						<surname>Hiramoto</surname>
+					</name>
+				</person-group>
+				<article-title>weburette @siggraph asia 2012</article-title>
+				<source>Behance gallery</source>
+				<pub-id pub-id-type="url">https://www.behance.net/gallery/18973267/weburette-siggraph-asia-2012</pub-id>
+				<year>2012</year>
+			</mixed-citation>
+		</ref>
+		<ref id="bibLavaAMP">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+					<name>
+						<given-names>Eric</given-names>
+						<surname>Schayes</surname>
+					</name>
+				</person-group>
+				<article-title>LavaAMP</article-title>
+				<source>Presented at the ACM Symposium on User Interface Software and Technology (UIST) Student Innovation Contest (SIC)</source>
+				<pub-id pub-id-type="url">https://vimeo.com/80902656</pub-id>
+				<year>2013</year>
+			</mixed-citation>
+		</ref>
+		
+		<ref id="bibChristianFrissonPhD">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+				</person-group>
+				<article-title>Designing interactive systems for browsing media collections (by similarity)</article-title>
+				<source>PhD Thesis, University of Mons. February 2015.</source>
+				<pub-id pub-id-type="url">http://tcts.fpms.ac.be/publications/phds/frisson/phd-frisson.pdf</pub-id>
+			</mixed-citation>
+		</ref>
+		
+		<ref id="bibAuracle">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+					<name>
+						<given-names>Nicolas</given-names>
+						<surname>Riche</surname>
+					</name>
+					<name>
+						<given-names>Antoine</given-names>
+						<surname>Coutrot</surname>
+					</name>
+					<name>
+						<given-names>Charles-Alexandre</given-names>
+						<surname>Delestage</surname>
+					</name>
+					<name>
+						<given-names>Stéphane</given-names>
+						<surname>Dupont</surname>
+					</name>
+					<name>
+						<given-names>Onur</given-names>
+						<surname>Ferhat</surname>
+					</name>
+					<name>
+						<given-names>Nathalie</given-names>
+						<surname>Guyader</surname>
+					</name>
+					<name>
+						<given-names>Sidi Ahmed</given-names>
+						<surname>Mahmoudi</surname>
+					</name>
+					<name>
+						<given-names>Matei</given-names>
+						<surname>Mancas</surname>
+					</name>
+					<name>
+						<given-names>Parag K.</given-names>
+						<surname>Mital</surname>
+					</name>	
+					<name>
+						<given-names>Alicia</given-names>
+						<surname>Prieto Echániz</surname>
+					</name>	
+					<name>
+						<given-names>François</given-names>
+						<surname>Rocca</surname>
+					</name>	
+					<name>
+						<given-names>Alexis</given-names>
+						<surname>Rochette</surname>
+					</name>	
+					<name>
+						<given-names>Willy</given-names>
+						<surname>Yvart</surname>
+					</name>	
+				</person-group>
+				<article-title>Auracle: how are salient cues situated in audiovisual content?</article-title>
+				<source>Proceedings of the 10th Summer School on Multimodal Interfaces (eNTERFACE 14), Bilbao, Spain, June 8th - July 5th 2014</source>
+				<pub-id pub-id-type="url">http://aholab.ehu.es/eNTERFACE14/</pub-id>
+			</mixed-citation>
+		</ref>
+		
+		<ref id="bibAlexWrightHumanizingData">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Alex</given-names>
+						<surname>Wright</surname>
+					</name>
+				</person-group>
+				<article-title>Humanizing data.</article-title>
+				<source>Workshop slides, Mundaneum, Mons, Dec. 5</source>
+				<pub-id pub-id-type="url">http://slideshare.net/LeMundaneum/alex-wright-monsworkshop051214</pub-id>
+				<year>2014</year>
+			</mixed-citation>
+		</ref>
+		<ref id="bibChristianRohrerUXMethods">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Rohrer</surname>
+					</name>
+				</person-group>
+				<article-title>When to Use Which User-Experience Research Methods</article-title>
+				<source>Nielsen/Norman Group website, Oct. 12</source>
+				<pub-id pub-id-type="url">https://www.nngroup.com/articles/which-ux-research-methods/</pub-id>
+				<year>2014</year>
+			</mixed-citation>
+		</ref>
+		<ref id="bibChristianFrissonGithub">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+				</person-group>
+				<article-title>Christian's Frisson github profile</article-title>
+				<source>Github profile</source>
+				<pub-id pub-id-type="url">https://github.com/ChristianFrisson</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibDougCookViz">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Doug</given-names>
+						<surname>Cook</surname>
+					</name>
+				</person-group>
+				<article-title>Doug Cook's project for Visualization CS294-10 Fa14 at Berkeley</article-title>
+				<source>Project website for Visualization CS294-10 Fa14 at Berkeley</source>
+				<year>2014</year>
+				<pub-id pub-id-type="url">http://vis.berkeley.edu/courses/cs294-10-fa14/wiki/index.php/A2-DougCook</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibBrainPickingsSolitude">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Maria</given-names>
+						<surname>Popova</surname>
+					</name>
+				</person-group>
+				<article-title>Brain Pickings search: creativity+solitude</article-title>
+				<source>Brain Pickings. Personal website</source>
+				<pub-id pub-id-type="url">https://www.brainpickings.org/?s=creativity+solitude</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibBrainPickingsAlone">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Maria</given-names>
+						<surname>Popova</surname>
+					</name>
+				</person-group>
+				<article-title>Brain Pickings search: creativity+alone</article-title>
+				<source>Brain Pickings. Personal website</source>
+				<pub-id pub-id-type="url">https://www.brainpickings.org/?s=creativity+alone</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibBretVictorClimateChange">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Bret</given-names>
+						<surname>Victor</surname>
+					</name>
+				</person-group>
+				<article-title>What can a technologist do about climate change? A personal view.</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://worrydream.com/ClimateChange/</pub-id>
+				<year>2015</year>
+			</mixed-citation>
+		</ref>
+		<ref id="bibWikipediaParetoPrinciple">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Pareto principle</article-title>
+				<source>Wikipedia page</source>
+				<pub-id pub-id-type="url">https://en.wikipedia.org/wiki/Pareto_principle</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozTestPilot">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Labs: Test Pilot</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://testpilot.mozillalabs.com/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozWikiIdeaTown">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Wiki: Idea Town</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://wiki.mozilla.org/Idea_Town</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozIdeaTownSplash">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>John</given-names>
+						<surname>Gruen</surname>
+					</name>
+				</person-group>
+				<article-title>Mozilla Idea Town Splash</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://people.mozilla.org/~jgruen/idea-town-splash/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibJohnGruenGithub">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>John</given-names>
+						<surname>Gruen</surname>
+					</name>
+				</person-group>
+				<article-title>John Gruen's Github</article-title>
+				<source>Github profile</source>
+				<pub-id pub-id-type="url">https://github.com/johngruen</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibInspectorWidgetGithub">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+				</person-group>
+				<article-title>InspectorWidget (soon on Github)</article-title>
+				<source>Github project page for InspectorWidget.</source>
+				<pub-id pub-id-type="url">https://github.com/ChristianFrisson/InspectorWidget</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibGillesBailly">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Gilles</given-names>
+						<surname>Bailly</surname>
+					</name>
+				</person-group>
+				<article-title>Gilles Bailly</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://www.gillesbailly.fr</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibSylvainMalacria">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Sylvain</given-names>
+						<surname>Malacria</surname>
+					</name>
+				</person-group>
+				<article-title>Sylvain Malacria</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://www.malacria.fr</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozChronicleTumblr">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Mozilla Chronicle: Modeling History Pt. 1</article-title>
+				<source>Tumblr website</source>
+				<pub-id pub-id-type="url">http://mozillachronicle.tumblr.com/post/106544657982/modeling-history-pt-1</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibAudioMetro">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+					<name>
+						<given-names>Stéphane</given-names>
+						<surname>Dupont</surname>
+					</name>
+					<name>
+						<given-names>Willy</given-names>
+						<surname>Yvart</surname>
+					</name>
+					<name>
+						<given-names>Nicolas</given-names>
+						<surname>Riche</surname>
+					</name>
+					<name>
+						<given-names>Xavier</given-names>
+						<surname>Siebert</surname>
+					</name>
+					<name>
+						<given-names>Thierry</given-names>
+						<surname>Dutoit</surname>
+					</name>	
+				</person-group>
+				<article-title>AudioMetro: directing search for sound designers through content-based cues</article-title>
+				<source>Proceedings of the 9th Audio Mostly Conference: A Conference on Interaction with Sound, Aalborg, Denmark, October 1-3 2014</source>
+				<pub-id pub-id-type="doi">10.1145/2636879.2636880</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibOculusRift">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Oculus Rift</article-title>
+				<source>Product page</source>
+				<pub-id pub-id-type="url">https://www.oculus.com/en-us/rift/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibOculusTouch">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Oculus Touch</article-title>
+				<source>Product page</source>
+				<pub-id pub-id-type="url">https://www.oculus.com/en-us/touch/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibOculusHapticFeedback">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Oculus SDK: Haptic Feedback</article-title>
+				<source>Product SDK page</source>
+				<pub-id pub-id-type="url">https://developer.oculus.com/documentation/pcsdk/latest/concepts/dg-input-touch-haptic/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibBrunoDumas">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Bruno</given-names>
+						<surname>Dumas</surname>
+					</name>
+				</person-group>
+				<article-title>Bruno Dumas' personal website</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">https://directory.unamur.be/staff/bdumas</pub-id>
+			</mixed-citation>
+		</ref>
+		
+		<ref id="bibInfoPhys">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+					<name>
+						<given-names>Bruno</given-names>
+						<surname>Dumas</surname>
+					</name>
+				</person-group>
+				<article-title>Infophys: Direct manipulation of information visualisation through a force-feedback pointing device</article-title>
+				<source>Proceedings of the 10th International Conference on Tangible, Embedded and Embodied Interaction, TEI ’16, New York, NY, USA, 2016. ACM. (in press)</source>
+				<pub-id pub-id-type="doi">10.1145/2839462.2856545</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibThomasPietrzak">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Thomas</given-names>
+						<surname>Pietrzak</surname>
+					</name>
+				</person-group>
+				<article-title>Thomas Pietrzak's personal website</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://thomaspietrzak.com</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibSiyanZhao">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Siyan</given-names>
+						<surname>Zhao</surname>
+					</name>
+				</person-group>
+				<article-title>Siyan Zhao's personal website</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://siyanz.com</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibAliIsrar">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Ali</given-names>
+						<surname>Israr</surname>
+					</name>
+				</person-group>
+				<article-title>Ali Israr's personal website</article-title>
+				<source>Personal website</source>
+				<pub-id pub-id-type="url">http://aliisrar.info</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibWebAudioHapticsGithub">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Christian</given-names>
+						<surname>Frisson</surname>
+					</name>
+					<name>
+						<given-names>Thomas</given-names>
+						<surname>Pietrzak</surname>
+					</name>
+					<name>
+						<given-names>Siyan</given-names>
+						<surname>Zhao</surname>
+					</name>
+					<name>
+						<given-names>Ali</given-names>
+						<surname>Israr</surname>
+					</name>
+				</person-group>
+				<article-title>WebAudioHaptics tutorial at Web Audio Conference (WAC) 2016</article-title>
+				<source>Github organization page</source>
+				<pub-id pub-id-type="url">https://github.com/webaudiohaptics</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibWebAudioConference">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>Web Audio Conference (WAC) 2016</article-title>
+				<source>Conference website</source>
+				<pub-id pub-id-type="url">http://webaudio.gatech.edu/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibBruceSterlingShapingThings">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Bruce</given-names>
+						<surname>Sterling</surname>
+					</name>
+				</person-group>
+				<article-title>Bruce Sterling's Shaping Things</article-title>
+				<source>Book description on MIT Press webpage.</source>
+				<year>2005</year>
+				<pub-id pub-id-type="url">https://mitpress.mit.edu/books/shaping-things</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozIoT">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Ari</given-names>
+						<surname>Jaaksi</surname>
+					</name>
+				</person-group>
+				<article-title>Firefox OS Pivot to Connected Devices</article-title>
+				<source>The Mozilla Blog. Dec. 9</source>
+				<year>2015</year>
+				<pub-id pub-id-type="url">https://blog.mozilla.org/blog/2015/12/09/firefox-os-pivot-to-connected-devices/</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibeLifeLensGithub">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>eLife Lens on Github</article-title>
+				<source>Project website</source>
+				<pub-id pub-id-type="url">https://www.github.com/elifesciences/lens</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibIvanGrubisicLinkedIn">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Ivan</given-names>
+						<surname>Grubisic</surname>
+					</name>
+				</person-group>
+				<article-title>Ivan Grubisic on LinkedIn</article-title>
+				<source>LinkedIn profile</source>
+				<pub-id pub-id-type="url">http://www.linkedin.com/pub/ivan-grubisic/26/353/739</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibeLifeSciencePublications">
+			<mixed-citation>
+				<person-group person-group-type="author">
+                </person-group>
+				<article-title>eLife Science Publications Ltd.</article-title>
+				<source>Company website</source>
+				<pub-id pub-id-type="url">http://elifesciences.org</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibSubstance">
+			<mixed-citation>
+				<person-group person-group-type="author">
+					<name>
+						<given-names>Michael</given-names>
+						<surname>Aufreiter</surname>
+					</name>
+					<name>
+						<given-names>Oliver</given-names>
+						<surname>Buchtala</surname>
+					</name>
+				</person-group>
+				<article-title>Substance</article-title>
+				<source>Company website</source>
+				<pub-id pub-id-type="url">http://substance.io</pub-id>
+			</mixed-citation>
+		</ref>
+	</ref-list>
+</article>
