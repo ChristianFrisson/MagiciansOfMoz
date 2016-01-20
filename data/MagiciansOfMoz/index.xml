@@ -106,7 +106,7 @@
 			</sec>
 			<sec id="sCodeRemoteCreativity" sec-type="codeRemoteCreativity">
 				<title>Fuel personal creativity remotely, collaborate creatively in person</title>
-				<p>Creativity and flow require <xref ref-type="bibr" rid="bibBrainPickingsSolitude">solitude</xref> or <xref ref-type="bibr" rid="bibBrainPickingsAlone">aloneness</xref>. I believe that offices are really necessary for organizations producing technologies when teams develop or use specific hardware, or need to collaborate together. Great, Mozilla teams seem to mostly work on software and use off-the-shelf hardware. I also like that most positions can be acted remotely at Mozilla and that Mozilla offers a travel and conference budget including for meeting people for usability evaluations.</p>
+				<p>Creativity and flow require <xref ref-type="bibr" rid="bibBrainPickingsSolitude">solitude</xref> or <xref ref-type="bibr" rid="bibBrainPickingsAlone">aloneness</xref>. I believe that offices are really necessary for organizations producing technologies when teams develop or use specific hardware, or need to collaborate together. Great, Mozilla teams seem to mostly work on software and use off-the-shelf hardware (let alone the recent work of <xref ref-type="bibr" rid="bibMozFactory">Mozilla Factory</xref>). I also like that most positions can be acted remotely at Mozilla and that Mozilla offers a travel and conference budget including for meeting people for usability evaluations.</p>
 				<p>According to <xref ref-type="bibr" rid="bibBretVictorClimateChange">Bret Victor</xref>, technologists should invest their time and skills in addressing the issue of climate change. One partial solution seems to be reducing petroleum waste from transportation. The most polluting mode of transportation ranked in his article is personal passenger vehicles, way above flights. When the schedule calls for personal work, I find it better to fuel creativity by remote working alone than spoiling commuting time and energy. But real, physical, tangible human contact is necessary for collaborations, for better understanding people, and for evaluations with users.</p>
 			</sec>
 		</sec>
@@ -921,6 +921,15 @@ Soon on <xref ref-type="bibr" rid="bibInspectorWidgetGithub">github</xref>.</p>
 				<article-title>Brain Pickings search: creativity+alone</article-title>
 				<source>Brain Pickings. Personal website</source>
 				<pub-id pub-id-type="url">https://www.brainpickings.org/?s=creativity+alone</pub-id>
+			</mixed-citation>
+		</ref>
+		<ref id="bibMozFactory">
+			<mixed-citation>
+				<person-group person-group-type="author">
+				</person-group>
+				<article-title>Mozilla Factory</article-title>
+				<source>Team website</source>
+				<pub-id pub-id-type="url">http://mozillafactory.org</pub-id>
 			</mixed-citation>
 		</ref>
 		<ref id="bibBretVictorClimateChange">
