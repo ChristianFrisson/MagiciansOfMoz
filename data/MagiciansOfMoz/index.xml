@@ -176,7 +176,7 @@
 				<title>Firefox UX: Design Process</title>
 				<p>Reproduced from the <xref ref-type="bibr" rid="bibMozFirefoxUXDesignValues">Firefox Design Values</xref> website.</p>
 			</caption>
-			<graphic xlink:href="data/MagiciansOfMoz/b4cf5053.design-process.svg"/>
+			<graphic xlink:href="data/MagiciansOfMoz/b4cf5053.design-process.png"/>
 		</fig>
 		<fig id="figMozFirefoxUXDesignValues">
 			<label>Figure: Design Values by the Firefox UX team</label>
